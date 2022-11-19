@@ -1,6 +1,7 @@
 from singlyLinkedList import LinkNode
-class Queue:
 
+
+class Queue:
 
     def __init__(self):
         """
@@ -57,10 +58,6 @@ class Queue:
         return "".join(string_list)
 
 
-
-
-
-
 if __name__ == "__main__":
     queue = Queue()
     queue.enqueue(1)
@@ -75,10 +72,3 @@ if __name__ == "__main__":
     print(queue.dequeue())
     print(queue.dequeue())
     print(queue.dequeue())
-
-
-
-
-
-
-
